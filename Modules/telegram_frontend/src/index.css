@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
+@font-face {
+  font-family: 'Onest-Regular';
+  src: local('Onest-Regular'), url(./assets/Fonts/Onest-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Onest-Medium';
+  src: local('Onest-Medium'), url(./assets/Fonts/Onest-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Onest-Bold';
+  src: local('Onest-Bold'), url(./assets/Fonts/Onest-Bold.ttf) format('truetype');
+  font-weight: bold;
+}
